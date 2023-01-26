@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#input {
+  display: block;
+  width: 105%;
+  height: 100%;
+  position: absolute;
+  outline: none;
+  cursor: default;
+  right: 0;
+  background-image: url(space.gif);
+  /* background-image: linear-gradient(#203fa5, #11a9c4); */
+}
+#ground {
+  width: 100%;
+  height: 130px;
+  position: absolute;
+  bottom: 0;
+  background-color: #00465c;
+  border-top: 20px solid #67514b;
+}
+.stone {
+  background-size: 100% 100%;
+  background-image: url(stone.gif);
+  position: absolute;
+  bottom: 1200px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 40px;
+  color: white;
+  overflow: hidden;
+  transform-origin: center;
+}
+label {
+  color: white;
+  margin-left: 20px;
+  font-size: 20px;
+}
+input[type="number"] {
+  width: 70px;
+  height: 40px;
+  font-size: 30px;
+  margin-top: 10px;
+}
+input[type="number"]:nth-child(5) {
+  width: 70px;
+}
+input[type="button"] {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 30px;
+  margin-left: 5px;
+}
+#hint {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  color: rgb(255, 217, 0);
+}
+#score {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+#highscore {
+  position: absolute;
+  top: 10px;
+  left: 80%;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
